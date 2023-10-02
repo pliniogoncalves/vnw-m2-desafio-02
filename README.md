@@ -1,4 +1,4 @@
-#Desafio 02 - Contador
+# Desafio 02 - Contador
 
 Desenvolva um contador que tenha as seguintes funcionalidades:
 1 - O contador não pode chegar abaixo de 0
