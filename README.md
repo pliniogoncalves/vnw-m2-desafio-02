@@ -11,4 +11,4 @@ OBSERVAÇÕES:
 
 - A entrega deve ser feita pelo classroom.
 
-<img src="../exemplo.png">
+<img src="exemplo.png">
