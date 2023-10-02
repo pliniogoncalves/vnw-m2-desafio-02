@@ -1,33 +1,28 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { useState } from 'react';
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  const [numero, setNumero] = useState(0);
+
+  const aumentar = () => {
+    if(numero >= 0 && numero <10) setNumero(numero + 1);
+  }
+
+  const diminuir = () => {
+    if(numero>0) setNumero(numero - 1);
+  }
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+
+      <section>
+      <h1>Contador</h1>
+      <p>{numero}</p>
+      <button onClick={diminuir}>menos</button>
+      <button onClick={aumentar}>mais</button>
+      </section>
+
     </>
   )
 }
