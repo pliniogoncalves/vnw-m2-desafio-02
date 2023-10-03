@@ -11,12 +11,12 @@ export default function Main(){
   const diminuir = () => {
     if(numero>0) setNumero(numero - 1);
   }
-
     return(
         <>
          <main>
+                <p>{numero}</p>
              <section>
-                    <p>{numero}</p>
+                    
                     <button onClick={diminuir}>menos</button>
                     <button onClick={aumentar}>mais</button>
                 </section>

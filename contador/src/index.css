@@ -1,3 +1,18 @@
+@charset "UTF-8";
+
+:root{
+  --fonte01: Arial, Helvetica, sans-serif;
+  --fonte02: 'Roboto Serif', serif;
+  --fonte03: normal, normal, sans-serif;
+  --fonte04: 'Roboto', sans-serif;
+
+  --cor01:#252525;
+  --cor02:#F4F2F3;
+  --cor03:#EB4A7B;
+  --cor04:#FD6A9A;
+  --cor05:#3A342F;
+}
+
 *{
   margin: 0;
   padding: 0;

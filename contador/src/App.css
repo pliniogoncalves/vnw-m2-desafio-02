@@ -1,1 +1,67 @@
+header{
+  background-color: var(--cor01);
+  color: var(--cor02);
+  display: flex;
+  justify-content: space-between;
+  height: 15vh;
+}
+
+header figure{
+  /* border: solid red; */
+  display: flex;
+  width: 50vw;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  right: -100px;
+}
+
+header figure img{
+  width: 6.5vw;
+}
+
+header figure img:hover{
+  cursor: pointer;
+  transform: scale(115%);
+}
+
+header figure h1{
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+main{
+  background-color: green;
+  color:var(--cor02);
+  font-size: 50px;
+  text-align: center;
+}
+
+main section{
+  /* border: solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 67.1vh;
+ 
+}
+
+footer{
+  /* border: solid red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--cor01);
+  color: var(--cor02);
+  height: 12vh;
+}
+
+footer p{
+  text-align: center;
+  font-size: 20px;
+  /* border: solid red; */
+  position: relative;
+  right: 8vw;
+}
 
