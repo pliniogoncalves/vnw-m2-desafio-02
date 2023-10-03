@@ -31,7 +31,9 @@ header figure h1{
 }
 
 main{
-  background-color: green;
+  background-image: url("../src/assets/grama.jpg");
+  background-size: cover;
+  
   color:var(--cor02);
   font-size: 50px;
   text-align: center;
